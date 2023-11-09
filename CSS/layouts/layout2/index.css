@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo-nav-div {
+    margin-bottom: 10px;
+}
+
+#logo-div, #nav-div {
+    width: 50%;
+    min-height: 50px;
+    line-height: 50px;
+
+    padding: 0 2%;
+
+    background-color: lightgray;
+    text-align: center;
+}
+
+#logo-div {
+    float: left;
+}
+
+#nav-div {
+    float: right;
+}
+
+#banner {
+    /* dimentions */
+    width: 100%;
+    min-height: 90px;
+    line-height: 90px;
+
+    /* b-m */
+    margin-bottom: 10px;
+
+    background-color: lightgray;
+    text-align: center;
+}
+
+#card-div {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 30%;
+    min-height: 590px;
+    line-height: 590px;
+
+    float: left;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#card-div .card:nth-child(2){
+    margin: 0 5%
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+
+    background-color: lightgray;
+    text-align: center
+}
